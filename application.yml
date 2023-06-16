@@ -1,14 +1,10 @@
-
 management:
   endpoint:
     health:
       show-details: always
-
-
 eureka:
   instance:
-    prefer-ip-address: true
-    
+    prefer-ip-address: true 
   client:
     fetch-registry: true
     register-with-eureka: true
